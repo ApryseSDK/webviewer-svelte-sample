@@ -4,6 +4,9 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+public/lib
+public/license-key.js
+public/bundle.*
 
 # Runtime data
 pids
