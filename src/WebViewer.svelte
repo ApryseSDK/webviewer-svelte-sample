@@ -8,8 +8,7 @@
 	onMount(async () => {
 		const ele = document.getElementById('viewer');
 		const viewer = new window.PDFTron.WebViewer({
-      path: '/lib',
-      l: atob(window.licenseKey)
+      path: '/lib'
 		}, ele);
 
 		ele.addEventListener('ready', () => {
