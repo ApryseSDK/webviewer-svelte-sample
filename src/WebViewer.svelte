@@ -7,15 +7,12 @@
 
 	onMount(async () => {
 		const ele = document.getElementById('viewer');
-		const viewer = new window.PDFTron.WebViewer({
+		new window.WebViewer({
       path: '/lib'
-		}, ele);
-
-		ele.addEventListener('ready', () => {
-      instance = viewer.getInstance();
-      dispatch('ready', {
-        instance
-      })
+		}, ele).then(instance => {
+			dispatch('ready', {
+				instance
+			})
 		})
 	});
 
