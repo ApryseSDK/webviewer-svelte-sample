@@ -1,6 +1,7 @@
 <script>
 
-	import { onMount, createEventDispatcher } from 'svelte';
+  import { onMount, createEventDispatcher } from 'svelte';
+  import WebViewer from '@pdftron/webviewer';
 
   let instance = null;
   const dispatch = createEventDispatcher();
