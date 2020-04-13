@@ -8,7 +8,7 @@
 
 	onMount(async () => {
 		const ele = document.getElementById('viewer');
-		new window.WebViewer({
+	WebViewer({
       path: '/lib'
 		}, ele).then(instance => {
 			dispatch('ready', {
