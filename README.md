@@ -7,6 +7,10 @@
 
 This repo is specifically designed for any users interested in integrating WebViewer into [Svelte](https://svelte.dev/) project. This project was generated using the [Svelte degit](https://svelte.dev/blog/the-easiest-way-to-get-started#2_Use_degit) template.
 
+## Demo
+
+You can explore all of the functionality in our [showcase](https://www.pdftron.com/webviewer/demo/).
+
 ## Initial setup
 
 Before you begin, make sure your development environment includes [Node.js](https://nodejs.org/en/).
