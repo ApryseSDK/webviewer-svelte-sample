@@ -22,11 +22,9 @@
 <style>
 	#viewer {
 		width: 100%;
-		height: 100%;
 	}
 </style>
 
-
-<div id='viewer'>
+<div id='viewer' style="height: 100vh;">
 
 </div>
