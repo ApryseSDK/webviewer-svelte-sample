@@ -1,15 +1,14 @@
 # WebViewer Svelte Example
 
-[WebViewer](https://www.pdftron.com/documentation/web/) is a powerful JavaScript-based PDF Library that's part of the [PDFTron PDF SDK](https://www.pdftron.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
+[WebViewer](https://apryse.com/products/webviewer) is a powerful JavaScript-based PDF Library that's part of the [Apryse SDK](https://apryse.com/). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
 
-![WebViewer UI](https://www.pdftron.com/downloads/pl/webviewer-ui.png)
+![WebViewer UI](https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-ui.png "WebViewer UI")
 
-
-This repo is specifically designed for any users interested in integrating WebViewer into [Svelte](https://svelte.dev/) project. This project was generated using the [Svelte degit](https://svelte.dev/blog/the-easiest-way-to-get-started#2_Use_degit) template.
+This repo is specifically designed for any users interested in integrating WebViewer into [Svelte](https://svelte.dev/) project.
 
 ## Demo
 
-You can explore all of the functionality in our [showcase](https://www.pdftron.com/webviewer/demo/).
+You can explore all of the functionality in our [showcase](https://showcase.apryse.com/).
 
 ## Initial setup
 
@@ -18,7 +17,7 @@ Before you begin, make sure your development environment includes [Node.js](http
 ## Install
 
 ```
-git clone https://github.com/PDFTron/webviewer-svelte-sample.git
+git clone https://github.com/ApryseSDK/webviewer-svelte-sample
 cd webviewer-svelte-sample
 npm install
 ```
@@ -33,12 +32,11 @@ npm run dev
 
 Run `npm run build` to build the project. The build artifacts will be stored in the `public/` directory.
 
-## WebViewer APIs
+## Documentation
 
-See [API documentation](https://www.pdftron.com/documentation/web/guides/ui/apis).
-
+[Standard API for WebViewer](https://docs.apryse.com/documentation/web/get-started/usage/).   
+[Full API for WebViewer](https://docs.apryse.com/documentation/web/guides/full-api-overview/).
 
 ## License
 
 See [license](./LICENSE).
-![](https://onepixel.pdftron.com/webviewer-svelte-sample)
